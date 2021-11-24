@@ -1,17 +1,30 @@
 <?php
 
-require('./login/processaLogin.php');
+class Admin{
+    private $bd;
+    
+    public function __construct($nome_bd, $hostname, $user, $password){
+        try{
+        $this->bd = new PDO("mysql:dbname=".$nome_bd.";host=".$hostname, $user, $password);
+        echo "<h2>Bem-vindo ao Banco de Dados do Ecommerce de Esportes, ".$user."!</h2>
+                <h3>Página do admin</h3><br>";
+        }
+        catch(PDOException $e){
+            echo "Erro do banco de dados: ".$e->getMessage();
+            exit();
+        }
+        catch(PDOException $e){
+            echo "Erro genérico: ".$e->getMessage();
+            exit();
+        }
+    }
 
-if($user=='admin'){
-
-$res = $bd->prepare("INSERT INTO categoria() VALUES (:cod_cat, :nome, :descricao)");
-
-$res->bindValue(":cod_cat", "5");
-$res->bindValue(":nome","Pingentes");
-$res->bindValue(":descricao", "Decoração para acessórios");
-$res->execute();
-
-echo "Inserido!";
+    public function buscarDados(){
+        $cmd = $this->db->prepare("SELECT * FROM produto ORDER BY Cod_prod");
+        $res = array();
+        $res = $cmd->fetchAll(PDO::FETCH_ASSOC);
+        return $res;
+    }
 }
 
 ?>

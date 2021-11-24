@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+label, input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 11pt;
+    width: 100%;
+}
+
+form{
+    width: 550px;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+}
+
+#esquerda{
+    width: 30%;
+    background-color: lightblue;
+}
+
+#direita{
+    width: 70%;
+    background-color: lightgreen;
+}
