@@ -15,7 +15,7 @@ label, input{
 
 form{
     width: 550px;
-    background-color: lightseagreen;
+    background-color: darkslategray;
     padding: 20px;
     margin: 30px 0px;
 }
@@ -25,11 +25,11 @@ input[type="submit"]{
 }
 
 #esquerda{
-    width: 30%;
-    background-color: lightblue;
+    width: 100%;
+    background-color: darkgrey;
 }
 
 #direita{
-    width: 70%;
-    background-color: lightgreen;
+    width: 100%;
+    background-color: darkolivegreen;
 }
