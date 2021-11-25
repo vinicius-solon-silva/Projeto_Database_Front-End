@@ -11,6 +11,6 @@ Para isto, acesse o PHPMyAdmin no servidor local e a partir disso realize estes 
 
 # Mais informações e Referências
 
-Playlist feita pela youtuber pela Miriam TechCod, que ensina passo-a-passo como estabelecer a conexão e o CRUD no database: [Clique aqui para acessar Playlist](https://youtube.com/playlist?list=PLYGFJHWj9BYqSXzSfHGd46yipCrkjC8AD)
+Playlist feita pela youtuber pela Miriam TechCod, que ensina passo-a-passo como estabelecer a conexão e o CRUD no database: [Clique aqui para acessar playlist](https://youtube.com/playlist?list=PLYGFJHWj9BYqSXzSfHGd46yipCrkjC8AD)
 
-Documentação oficial do módulo PDO para PHP: [Clique aqui para acessar Documentação](https://www.php.net/manual/pt_BR/book.pdo.php)
+Documentação oficial do módulo PDO para PHP: [Clique aqui para acessar a documentação](https://www.php.net/manual/pt_BR/book.pdo.php)
