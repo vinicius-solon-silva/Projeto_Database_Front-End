@@ -2,7 +2,6 @@
 
 require_once 'admin.php';
 
-
 $hostname = "localhost";
 $nome_bd = "00_ecommerce_esportes";
 $user = $_POST['login'];
