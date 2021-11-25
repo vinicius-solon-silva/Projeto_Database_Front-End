@@ -7,7 +7,7 @@ Será necessário criar o banco e os usuários na base de dados caso queira real
 Para isto, acesse o PHPMyAdmin no servidor local e a partir disso realize estes passos:
 
 - Crie um banco de dados com o nome "00_ecommerce_esportes". Dentro dele, clique na aba superior "Importar" e faça upload do script "00_ecommerce_esportes.sql". Após isso o banco estará criado e populado com alguns dados essenciais.
-- Copie o conteúdo do arquivo "user_script.sql". Clique na aba "Console" que fica na parte inferior da tela do PHpMyAdmin, e lá cole o conteúdo copiado. Após isto os usuários deste banco estarão criados e assim você poderá acessar o banco e realizar CRUD quando acessar a página Web.
+- Copie o conteúdo do arquivo "user_script.sql". Clique na aba "Console" que fica na parte inferior da tela do PHPMyAdmin, e lá cole o conteúdo copiado. Após isto os usuários deste banco estarão criados e assim você poderá acessar o banco e realizar CRUD quando acessar a página Web.
 
 # Mais informações e Referências
 
